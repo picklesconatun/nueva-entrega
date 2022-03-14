@@ -1,0 +1,198 @@
+body {
+  display: grid;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: beige;
+  grid-template-columns: repeat(auto-fill, minmax(100%, 25rem), 1fr);
+}
+
+.header {
+  background-color: #b3dbb3;
+  display: flex;
+  justify-content: 0 space-between;
+  height: 75px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header img {
+  height: 150px;
+}
+
+.header h2 {
+  color: #b94c24;
+  font-size: 4vw;
+}
+
+.header a:hover {
+  color: orangered;
+}
+
+.card {
+  display: flex;
+}
+
+.card p {
+  background-color: white;
+  color: #b94c24;
+  font-size: 2vw;
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+  height: 35%;
+  position: absolute;
+  top: 30%;
+  left: 48%;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  max-height: 900px;
+}
+
+.OPCIONES {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.OPCIONES h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.contenedor img {
+  max-width: 100%;
+  height: auto;
+  max-height: 900px;
+}
+
+.footer {
+  display: flex;
+  background-color: #b3dbb3;
+  justify-content: space-around;
+}
+
+.footer a:hover {
+  color: orangered;
+}
+
+.container {
+  display: flex;
+  background-color: #b3dbb3;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.semanales {
+  display: flex;
+  text-align: justify;
+  font-size: 30px;
+  text-align: center;
+  flex-wrap: wrap;
+  color: #b94c24;
+  background-color: #b3dbb3;
+}
+
+.semanales img {
+  width: 45%;
+}
+
+h5 {
+  text-align: center;
+  font-size: 4vw;
+  color: #b94c24;
+}
+
+.card4 {
+  background-color: #b3dbb3;
+  width: auto;
+  margin: auto auto;
+  align-items: center;
+  padding: 30px;
+}
+
+.pagos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.pagos img {
+  max-width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.pagos h6 {
+  text-align: center;
+  font-size: 2.5vw;
+  color: #b94c24;
+}
+
+.pagos p {
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.pagos li {
+  text-align: center;
+  font-size: 1.9vw;
+  color: #b94c24;
+}
+
+.metodos {
+  display: flex;
+}
+
+.metodos img {
+  height: 150px;
+}
+
+.contenedor2 {
+  position: relative;
+  text-align: center;
+  padding: 30px;
+}
+
+.contenedor2 div {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  color: #b94c24;
+  font-size: 3.5vw;
+}
+
+.contenedor2 img {
+  max-width: 100%;
+}
+
+.contenedor2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mensaje {
+  display: flex;
+  background-color: #b3dbb3;
+  color: #b94c24;
+  font-size: 2vw;
+  display: inline-block;
+  text-align: center;
+}
